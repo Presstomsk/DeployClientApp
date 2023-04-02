@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\DeployApp\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\DeployApp\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\DeployApp\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
         "projectName": "OrdersApiAppSPD011",
-        "projectPath": "C:\\Users\\user\\Desktop\\DeployApp\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\DeployApp\\DeployClientApp\\OrdersApiAppSPD011\\obj\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\DeployClientApp\\OrdersApiAppSPD011\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.15, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RC46inG/Sm7/Feb90w7Q0ozZELzmgTZHGj0a43w3oejDEt79kRfd+B699XpDnfN3OO5QbbFJya0Y/75sZjR/fg==",
+  "dgSpecHash": "VENROLP/FIji77s4sXAfISP8Vbwk7RFiqe2yMNx3IVXt9wpxGi+X3ohVxO9hnBlxvjlwtTIwH7Ltq9hdIF9IVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Desktop\\DeployApp\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
+  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\DeployClientApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.15\\microsoft.entityframeworkcore.6.0.15.nupkg.sha512",
@@ -23,6 +23,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",

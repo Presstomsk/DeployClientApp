@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  ordersapiappspd011:
+    image: ${DOCKER_REGISTRY-}ordersapiappspd011
+    build:
+      context: .
+      dockerfile: OrdersApiAppSPD011/Dockerfile  
+    container_name: app_container 
+    environment:
+        - ASPNETCORE_Kestrel__Certificates__Default__Password=password
+        - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+    volumes:
+        - ~/.aspnet/https:/https:ro
+    ports:
+        - 8080:80   #http  
+        - 8000:443  #https
+    networks:
+        - internal
+    depends_on: 
+        - database
+  
+  database:
+    image: postgres:latest
+    container_name: db_container
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+    ports:  
+        - 5432:5432
+    networks:
+        - internal
+
+networks:
+  internal:
+    driver: bridge
+
+  
